@@ -1,9 +1,10 @@
 import './main.css';
+import Header from './header';
 
 function App() {
   return (
     <div className="container">
-      <h1>Hello World</h1>
+      <Header subtitle="Provide houses all over the world" />
     </div> 
   );
 }
